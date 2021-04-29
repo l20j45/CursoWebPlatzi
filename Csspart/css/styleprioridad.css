@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    font-size: 50px;
+    font-family: monospace;
+}
+
+.nav {
+    margin-top: 10px;
+    list-style-type: none;
+    padding-left: 0px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+.main-nav__item {
+    display: inline-block;
+    background-color: #13a4a4;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.main-nav__item a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-nav__item:nth-child(4) {
+    background-color: orange;
+    font-size: 20px;
+}
+
+.main-nav__item:nth-child(4):hover {
+    background-color: green;
+    font-size: 20px;
+}

@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.card-title {
+    position: relative;
+    width: 35vw;
+    height: 3.5vh;
+    left: 40vw;
+    top: 30vh;
+    background: #FF4400;
+    border-radius: 5px;
+    border: 1px solid black;
+    z-index: 2;
+}
+
+.card-title__text {
+    position: absolute;
+    font-size: 2rem;
+    font-weight: bold;
+    left: 28%;
+    top: 2px;
+    max-width: 500px;
+}
+
+@media screen and(min-width: 480 px) {}
+
+@media screen and(min-width: 600 px) {}
+
+@media screen and(min-width: 767 px) {}
+
+@media screen and(min-width: 950 px) {}

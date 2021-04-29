@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #FBF4E2;
+}
+
+.card {
+    position: relative;
+    background: #FEFEFE;
+    width: 95%;
+    height: 45vh;
+    left: 2.5%;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.card-Title {
+    background-color: #022B35;
+    height: 40px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.card-Title__item {
+    position: relative;
+    display: inline-block;
+    background: #32A097;
+    color: white;
+}
+
+.Item2 {
+    background: #2E8CD0;
+    margin-left: -6px;
+    padding: 0;
+}
+
+.card-Content__item {
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    background: green;
+    width: 22vw;
+    overflow: hidden;
+    margin-top: 10px;
+    height: 155px;
+}
+
+.card-Content__item__Big {
+    color: white;
+    font-size: 90px;
+    text-align: center;
+    font-family: 'Comic Sans MS';
+}
+
+.card-Content__item__small {
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    margin-top: 15px;
+    width: 40%;
+    margin-left: 30%;
+}
+
+.card-Content__item:nth-child(1) {
+    background: #C84A22;
+}
+
+.card-Content__item:nth-child(2) {
+    background: #D03981;
+}
+
+.card-Content__item:nth-child(3) {
+    background: #2D8BCF;
+}
+
+.card-Content__item:nth-child(4) {
+    background: #319F96;
+}
+
+.Button {
+    background: #C1982F;
+    border-radius: 5px;
+    color: white;
+    position: absolute;
+    right: 50px;
+    margin-top: 20px;
+    padding: 10px;
+}
