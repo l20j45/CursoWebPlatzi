@@ -24,7 +24,7 @@
                     justify-content: center;
                     position: relative;
                     width: 50vw;
-                    height: 40vw;
+                    height: 30vw;
                 }
                 
                 .card-encabezado {
@@ -76,36 +76,4 @@
                     color: #fff;
                     word-wrap: break-word;
                     font-size: 1.6vw;
-                }
-                
-                @media screen and (min-width: 480px) {}
-                
-                @media screen and (min-width: 600px) {}
-                
-                @media screen and (min-width: 767px) {
-                    .card-contenido {
-                        left: 32%;
-                        width: 300px;
-                    }
-                    .card-encabezado {
-                        height: 5vh;
-                        width: 20vw;
-                        left: 40vw;
-                        top: 20vh;
-                    }
-                    .card-encabezado__texto {
-                        font-size: 2.5rem;
-                        font-weight: bold;
-                        top: 5px;
-                    }
-                    .card-contenido__texto {
-                        font-size: 1.3rem;
-                    }
-                }
-                
-                @media screen and (min-width: 950px) {
-                    .card-contenido {
-                        left: 32%;
-                        width: 40vw;
-                    }
                 }
