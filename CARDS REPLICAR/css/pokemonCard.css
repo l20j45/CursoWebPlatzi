@@ -6,33 +6,57 @@
 
 html {
     font-size: 62.5%;
+    height: 100%;
+    width: 100%;
+}
+
+.card {
+    position: relative;
+    width: 20vw;
+    height: 30vw;
+    background-color: #FF8B01;
+    left: 40vw;
+    top: 20vw;
+    border-radius: 2vw;
+    border: .5vw solid black;
 }
 
 .card-title {
     position: relative;
-    width: 35vw;
-    height: 3.5vh;
-    left: 40vw;
-    top: 30vh;
-    background: #FF4400;
-    border-radius: 5px;
-    border: 1px solid black;
-    z-index: 2;
+    width: 10vw;
+    background: #FB4500;
+    top: -2vw;
+    left: 20%;
+    border-radius: 2vw;
+    border: .5vw solid black;
+    text-align: center;
 }
 
 .card-title__text {
-    position: absolute;
-    font-size: 2rem;
+    position: relative;
+    width: 80%;
+    word-wrap: break-word;
+    font-size: 2vw;
     font-weight: bold;
-    left: 28%;
-    top: 2px;
-    max-width: 500px;
 }
 
-@media screen and(min-width: 480 px) {}
+.card-content__image {
+    position: relative;
+    top: -1vw;
+    width: 12vw;
+    height: 12vw;
+    left: 4vw;
+}
 
-@media screen and(min-width: 600 px) {}
+.card-content__image img {
+    width: 100%;
+    height: 100%;
+}
 
-@media screen and(min-width: 767 px) {}
-
-@media screen and(min-width: 950 px) {}
+.card-content__texto {
+    position: relative;
+    width: 90%;
+    word-wrap: break-word;
+    font-size: 1vw;
+    left: 1vw;
+}
